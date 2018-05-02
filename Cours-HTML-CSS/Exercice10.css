@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    }
+
+main{
+    background-color: black;
+    width: 300px;
+    height: 700px;
+    margin: auto;
+    padding: 4%;
+    }
+
+.cercle1{
+    background: #7f8c8d;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px auto; 
+    animation-duration: 8s;
+    animation-name: cercle1;
+    }
+  
+  .cercle2{
+    background: #7f8c8d;
+    width: 200px;
+    height: 200px; 
+    margin: 25px auto;
+    border-radius: 50%;
+    animation-duration: 8s;
+    animation-name: cercle2;
+    }
+  
+  .cercle3{
+    background:  #7f8c8d;
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+    border-radius: 50%;
+    animation-duration: 8s;
+    animation-name: cercle3;
+    }
+  
+  @keyframes cercle1{
+    0%   {background-color: #7f8c8d;}
+    25%  {background-color: #f1948a;}
+    50%  {background-color: #cb4335;}
+    100% {background-color: red;}
+    }
+  
+  @keyframes cercle2{
+    0%   {background-color: #7f8c8d;}
+    25%  {background-color: #f9e79f;}
+    50%  {background-color: #f4d03f;}
+    100% {background-color: orange;}
+    }
+  
+  @keyframes cercle3{
+    0%   {background-color: #7f8c8d;}
+    25%  {background-color: #82e0aa;}
+    50%  {background-color: #28b463;}
+    100% {background-color: green;}
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
