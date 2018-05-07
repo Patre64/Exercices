@@ -1,0 +1,46 @@
+html {
+background-color: #E1C515;
+margin:0 auto; 
+width: 100%;
+height: 100%;
+}
+
+header {
+background-color: #19B6A1;
+margin: 0px;
+width: 100%;
+height: 20vh;
+
+}
+
+nav {
+background-color: #5377db;
+margin: 0px;
+width: 100%;
+height: 10vh;
+
+}
+
+section {
+background-color: #555E75;
+float:left;
+width: 100%;
+height: 60vh;
+
+}
+
+aside {
+background-color: #19B6A1;
+float: right;
+width: 20%;
+height: 60vh;
+}
+
+footer {
+clear:both;
+background-color: #283A6B;
+margin: 0px;
+width: 100%;
+height: 10vh;
+ 
+}

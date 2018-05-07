@@ -1,0 +1,44 @@
+html, body{
+background-color: aqua;
+padding:0;
+margin:0;
+width:100%;
+height:100%;
+}
+
+
+#paysage{
+background-image: url(/home/step11/Documents/Cours-HTML-CSS/gif12-html/images/africa.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+padding:0;
+width:100%;
+height:80%;
+}
+
+
+#terre{
+background-color: black;
+padding:0px;
+margin:0px;
+width:100%;
+height:20%;
+}
+
+
+.cheval{
+background-image: url(/home/step11/Documents/Cours-HTML-CSS/gif12-html/images/ycheval03.gif);
+background-repeat: no-repeat;
+
+widows:250px;
+height:150px;
+}
+
+
+.leopard{
+background-image: url(/home/step11/Documents/Cours-HTML-CSS/gif12-html/images/yfauve04.gif);
+background-repeat: no-repeat;
+
+widows:250px;
+height:150px;
+}
