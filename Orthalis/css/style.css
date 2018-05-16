@@ -1,0 +1,142 @@
+/*CSS Mickaël mise en forme générale 07/05 =========================================================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 100%;
+}
+    /* Barre en-tête ------------------------------------------------------------------------------------ */
+    header {
+        width: 100%;
+        height: 8vh;
+        background: linear-gradient(to left,  #00b0cf 0%,#0022bb 100%);
+        top: 0;
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+    }
+    header section {
+        width: 100%;
+        height: 100%;
+        background: black;
+        position: fixed;
+        z-index: 1; /* En dessous du menu glissant */
+        transition: opacity 1s;
+    }
+        .cachee {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .visible {
+            opacity: 0.7;
+            visibility: visible;
+        }
+    header #burger {
+        width: 6vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1.5vh 2vh 1.5vh 2vh;
+    }
+        header #burger div {
+            width: 100%;
+            height: 0.6vh;
+            margin: 0.4vh;
+            background: white;
+        }
+    /* Barre de navigation -------------------------------------------------------------------------------- */
+    nav {
+        z-index: 3; /* über alles */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        height: 100%;
+        position: fixed;
+        background: linear-gradient(to bottom,  #00b0cf 0%,#0022bb 100%);
+        transition: transform 1s;
+    }
+    .neutre{
+        width: 17%;
+    }
+    .mobile {
+        width: 80%;
+        transform: translateX("0%");
+    }
+        /* Section profil */
+        nav #profil {
+            height: 30vh;
+            margin: 5vh 15% 5vh 15%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+            nav #profil h1,h2 {
+                color: white;
+                font-size: 4vh;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+            nav #profil h2 {
+                color: #e7e7e7;
+                font-size: 3vh;
+            }
+            nav #profil img {
+                height: 20vh;
+                align-self: center;
+                margin-bottom: 5vh;
+                border-radius: 10%;
+            }
+        /* Section navigation */
+        nav #navigation {
+            height: 65vh;
+        }
+            nav #navigation a {
+                display: flex;
+                justify-content: space-between;
+                color: #e7e7e7;
+                text-decoration: none;
+                font-family: fantasy;
+                font-size: 2.5vh;
+                padding: 2vh 10% 2vh 10%;
+            }
+            nav #navigation a.active {
+                background-color: #0022bb;
+                color: white;
+            }
+            nav #navigation a:hover:not(.active) {
+                background-color: #0022bb;
+                color: white;
+            }
+            nav #navigation span {  
+                font-size: 3vh;
+            }
+    /* Adaptation à la taille d'écran ------------------------------------------------------------------------- */
+    /* Smartphone */
+    @media screen and (max-width: 1100px) {
+        .neutre{
+            transform: translateX(-100%);
+            width: 80%;
+        }
+        main {
+            margin-left: 0;
+            transition: margin-left 1s;
+        }
+    }
+    /* Tablette */
+    @media screen and (min-width: 1101px) {
+        .neutre{
+            transform: translateX(0%);
+            width: 17%;
+        }
+        main {
+            margin-left: 17%;
+            transition: margin-left 1s;
+        }
+    }
+    /*
+        Bon t'as vu c'est pas compliqué tu mets ton CSS en dessous de celui d'un autre membre de la DreamTeam sans modifier AUCUNE de ses
+        classe, et pis tu peux signer pour que l'on voit à qui demander une modification.
+    */
+/* CSS Mickaël mise en forme générale 07/05 ======================================================================================== */

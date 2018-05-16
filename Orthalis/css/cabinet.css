@@ -1,0 +1,69 @@
+html, body{
+background-color: white;
+color: black;
+font-family: 'Oswald', sans-serif;
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+}
+
+
+#slide {
+background-color: gray;
+position: relative;
+width: 150px;
+height: 150px;
+margin:  0px auto;
+overflow: hidden;
+}
+
+
+#orthos li, ul {
+display: inline;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+
+#orthos {
+position: absolute;
+top: 0;
+left: 0;
+width: 550px;
+margin: 0;            
+padding: 0;
+	
+/*keyframes animation*/
+    
+animation-name: AutoSlide;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+
+@keyframes AutoSlide {
+	0% {
+		left: 0px; /*1ère image*/
+	}
+	15% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: -156px; /*2ème image*/
+	}
+	50% {
+		left: -156px; /*idem pour attente*/
+	}
+	70% {
+		left: -312px; /*3ème image*/
+	}
+	85% {
+		left: -312px; /*idem pour attente*/
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
