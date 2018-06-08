@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mouse.css" type="text/css" />
+    </head>
+
+    <body>
+        <main> Attention ça glisse !</main>
+        <script>
+            let main = document.querySelector("main");
+            //La fonction se declenche quand on laisse le clic enfoncé sur le main 
+            main.onmousedown = function (event) {
+                let shiftX = event.clientX - main.getBoundingClientRect().left; // Permet de compenser le décalage lors du clic
+                let shiftY = event.clientY - main.getBoundingClientRect().top; // la div se décale en diagonale sans ca
+
+                main.style.zIndex = 1000;
+                document.body.append(main);
+                // Centre l'élément au milieux des coordonnées pageX et pageY
+                function moveAt(pageX, pageY) { // IMPORTANT définissez une valeur left et top a votre élément dans votre css 
+                    main.style.left = pageX - shiftX + 'px';
+                    main.style.top = pageY - shiftY + 'px';
+                }
+                // Déclenche la fonction moveAt aux coordonnées de l'événement ( soit aux coordonnées où notre souris bouge)
+                function onMouseMove(event) {
+                    moveAt(event.pageX, event.pageY);
+                }
+                // Détecte l'évènement " souris qui bouge "
+                document.addEventListener('mousemove', onMouseMove);
+                // Stop le suivi du mouvement de la souris
+                main.onmouseup = function () {
+                    document.removeEventListener('mousemove', onMouseMove);
+                };
+            };
+            
+            // code original : https://javascript.info/mouse-drag-and-drop
+        </script>
+    </body>
+</html>

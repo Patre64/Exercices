@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="drag.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="boite">
+                <div class="image" draggable="true">
+                </div>
+            </div>
+            <div class="boite"></div>
+            <div class="boite"></div>
+            <div class="boite"></div>
+        </div>
+
+        <script>
+            class App {
+                // Static permet de définir une méthode de la classe App ( Méthode = propriété d'une classe, ex : .innerHTML ou .querySelector)
+                
+                static init() {
+                    // Création et définition des propriétés de l'image que l'on bouge 
+                    App.image = document.querySelectorAll('.image')[0];
+                    App.image.addEventListener("dragstart", App.dragstart);
+                    App.image.addEventListener("dragend", App.dragend);
+
+                    // Ensemble des boites dans lesquelles ont peut déposer l'image
+                    const containers = document.querySelectorAll('.boite');
+
+                    // On applique des propriétés sur chaque boites
+                    for (let container of containers) {
+                        container.addEventListener("dragover", App.dragover);
+                        container.addEventListener("drop", App.drop);
+                    }
+                }
+                
+                // Se déclenche quand on commence le drag
+                static dragstart() {
+                    setTimeout(() => this.className = "invisible", 0);
+                }
+                // Se déclenche quand a la fin de notre drag
+                static dragend() {
+                    this.className = "image";
+                }
+                // ??? Empeche probablement l'image de retourner dans sa div initiale 
+                static dragover(e) {
+                    e.preventDefault();
+                }
+                // Se déclenche quand on drop notre image
+                static drop() {
+                    this.append(App.image);
+                }
+            }
+            document.addEventListener("DOMContentLoaded", App.init)// lance la fonction initial de la classe App au chargement du DOM
+            
+
+
+            /* Evenements de Drag : 
+
+                drag      : Se declenche quand on glisse un élément
+                dragstart : Se declenche au départ de la glissade d'un élément  
+                dragend   : Se declenche quand l'évenement de glissade se termine  
+                dragenter : Se declenche quand l'élément glissé passe dans une zone de dépot possible 
+                dragleave : Se declenche quand l'élément glissé sort d'une zone de dépot possible 
+                dragexit  : Relativement similaire a dragleave mais n'est pas supporté par tout les navigateurs
+                dragover  : Se declenche quand la souris qui glisse un élément passe sur une zone de dépot possible
+                drop      : Se declenche quand on relache la souris pour déposer un élément
+                
+            */
+
+            //Code Original : https://medium.com/quick-code/simple-javascript-drag-drop-d044d8c5bed5
+        </script>
+    </body>
+</html>

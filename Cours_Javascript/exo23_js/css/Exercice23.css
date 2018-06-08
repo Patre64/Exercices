@@ -1,0 +1,46 @@
+body{      
+background-color: grey;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+padding:0;
+margin:0;
+width:100%;
+height:100%;
+display: flex;
+flex-direction: column;
+}
+
+#menu{   
+background-color: white;
+color: #000;
+flex: 1 1 auto;
+width:100%;
+height:10%;
+}
+
+#video{ 
+flex: 1 1 auto;   
+width:65%;
+height:40%;   
+margin: auto; 
+}
+
+#video video{  
+width:100%;   
+}
+
+#texte{
+background-color: white;
+color: #000;
+width: 65%;
+height: 10%;
+flex: 1 1 auto;
+margin: auto;
+overflow:scroll;
+}
+
+#bas{
+background-color: white;
+color: #000;
+width:100%; 
+height:40%;
+}
+
