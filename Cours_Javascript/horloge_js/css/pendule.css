@@ -1,0 +1,48 @@
+html, body, section{
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+section{
+    display:flex;
+}
+#pendule{
+    margin:auto;
+    height:500px;
+    width:500px;
+    border-radius:50%;
+    border:2px solid black;
+    box-shadow:2px 4px 8px black inset;
+    display:flex;
+}
+#centre{
+    margin:auto;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color:black;
+}
+#heures{
+    height:180px;
+    width:16px;
+    margin-left:-8px;
+}
+#minutes{
+    height:210px;
+    width:12px;
+    margin-left:-6px;
+}
+#secondes{
+    height:240px;
+    width:6px;
+    margin-left:-3px;
+}
+.aiguille{
+    transform-origin: 50% 100%;
+    background-color: black;
+    position:absolute;
+    left:50%;
+    bottom:50%;
+    /*transform:translateX(250px);*/
+}
