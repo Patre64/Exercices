@@ -12,10 +12,10 @@ $(function () {
 
     /* $("#p1").on({
             mouseenter: function () {
-                $("#p5").hide();
+                $("#p5").hide("slow");
             },
             mouseleave: function () {
-                $("#p5").show();
+                $("#p5").show("fast");
             },
             click: function () {
                 $("#p3").hide();
@@ -25,7 +25,8 @@ $(function () {
     }); */
 
 
-    $("#p1").click(function () {
+    //Fonction Callback..
+    /* $("#p1").click(function () {
         $("#p2").hide(1005, function () {
             $("#p3").hide(1000, function () {
                 $("#p4").hide(1000, function () {
@@ -34,4 +35,21 @@ $(function () {
             });   
         });
     });
-});
+}); */
+
+
+
+    $("#p1").click(function () {
+        $("#p2").toggle(1000, function () {
+            $("#p3").fadeOut(1000, function () {
+                $("#p4").fadeIn(1000, function () {
+                    $("#p5").fadeToggle(1000, function () {
+                        $("#p6").fadeTo(3000, 0.5);
+                    });
+                });
+            });
+        });
+    });
+});   
+
+
