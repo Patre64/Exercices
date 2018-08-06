@@ -8,7 +8,7 @@
 <body>
     <p>HTML ET CSS</p>
     
-  <a href="https://Patre64.github.io/Exercices/exo1_html/Exercice1.html">Exercice1</a>
+  <a href="https://Patre64.github.io/Exercices/Class_objet/Exercice1.html">Exercice1</a>
   
   <body>
   </html>
