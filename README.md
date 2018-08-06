@@ -7,6 +7,6 @@
 </head>
 <body>
   <p>HTML ET CSS</p>
-  <li href = "https://loudPatre64.github.io/Exercices/exo1_html/Exercice1.html"></li>
+  <a href = "https://loudPatre64.github.io/Exercices/exo1_html/Exercice1.html"></a>
   <body>
   </html>
