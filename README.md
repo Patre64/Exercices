@@ -10,19 +10,19 @@
     <p>HTML ET CSS</p>
     
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice1.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice2.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
-  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo2_html/Exercice2.html">Exercice2</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo3_html/Exercice3.html">Exercice3</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo4_html/Exercice4.html">Exercice4</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/photo5-html/Exercice5.html">Exercice5</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/Video6-html/Exercice6.html">Exercice6</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo7_html/Exercice7.html">Exercice7</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo8_html/Exercice8.html">Exercice8</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo9_html/Exercice9.html">Exercice9</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo10_html/Exercice10.html">Exercice10</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo11_html/Exercice11.html">Exercice11</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/gif12-html/Exercice12.html">Exercice12</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo13_html/Exercice13.html">Exercice13</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo14_html/Exercice14.html">Exercice14</a>
    
    
   <body>
