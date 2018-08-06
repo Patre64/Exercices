@@ -1,0 +1,4 @@
+function lightbox(el){
+
+
+}
