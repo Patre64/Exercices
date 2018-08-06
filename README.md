@@ -6,9 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
+    
     <p>HTML ET CSS</p>
     
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice1.html">Exercice1</a>
-  
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice2.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+  <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice3.html">Exercice1</a>
+   
+   
   <body>
   </html>
