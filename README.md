@@ -7,11 +7,11 @@
 </head>
 <body>
     
-    <p>Mistercuisto</p>
+  <p>Mistercuisto</p>
     
   <a href="https://patre64.github.io/Exercices/Restaurant/index.html">Mistercuisto</a>
     
-    <p>HTML ET CSS</p>
+  <p>HTML ET CSS</p>
     
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice1.html">Exercice1</a>
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo2_html/Exercice2.html">Exercice2</a>
