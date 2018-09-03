@@ -9,7 +9,7 @@
     
   <p>Mistercuisto</p>
     
-  <a href="https://patre64.github.io/Exercices//Documents/Restaurant/index.html">Mistercuisto</a>
+  <a href="https://patre64.github.io/Exercices/Documents/Restaurant/index.html">Mistercuisto</a>
     
   <p>HTML ET CSS</p>
     
