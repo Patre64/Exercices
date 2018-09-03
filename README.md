@@ -7,6 +7,10 @@
 </head>
 <body>
     
+    <p>Mistercuisto</p>
+    
+    <a href="https://patre64.github.io/Exercices/Restaurant/index.html">Mistercuisto</a>
+    
     <p>HTML ET CSS</p>
     
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo1_html/Exercice1.html">Exercice1</a>
@@ -23,6 +27,13 @@
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/gif12-html/Exercice12.html">Exercice12</a>
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo13_html/Exercice13.html">Exercice13</a>
   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo14_html/Exercice14.html">Exercice14</a>
+   
+   <p>Javascript</p>
+   
+   <a href="https://patre64.github.io/Exercices/Algorithmes/Exercice17-Algo/Exercice17.html">Array-Json-HttpRequest-Algo/exo21_js.html</a>
+   <a href="https://patre64.github.io/Exercices/Algorithmes/Algorithmes/Array-Json-HttpRequest-Algo/exo21_js.html">Array-Json-HttpRequest-Algo/exo21_js.html</a>
+   <a href="https://patre64.github.io/Exercices/Cours_Javascript/horloge_js/horloge.html">Horloge</a>
+   <a href="https://patre64.github.io/Exercices/Cours-HTML-CSS/exo14_html/Exercice14.html">Exercice14</a>
    
    
   <body>
