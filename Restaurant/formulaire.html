@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <titleformulaire>
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="formulaire.css" />
+</head>
+
+<!--Bandeau superieur-->
+
+<header id="Bandeau">
+
+    <img src="Images/Restaurant.jpg" alt="photo du resto" />
+
+</header>
+
+<body>
+
+    <!--Menu du site-->
+
+    <div id="Menusite">
+
+        <div class="element1">
+            <nav>
+                <a href="index.html" alt="">Plat du jour</a>
+            </nav>
+        </div>
+        <div class="element2">
+            <nav>
+                <a href="#" alt="">Les Menus</a>
+            </nav>
+        </div>
+        <div class="element3">
+            <nav>
+                <a href="formulaire.html" alt="">Contacts</a>
+            </nav>
+        </div>
+
+    </div>
+
+
+    <!--Formulaire-->
+
+    <form id="monFormu" action="formulaire.php" method="POST">
+
+
+        <label class="form_col" for="nom">Nom :</label>
+
+        <input type="text" name="nom" required placeholder="nom" />
+
+        <br />
+
+        <label class="form_col" for="prenom">Prénom :</label>
+
+        <input type="text" name="prenom" required placeholder="prénom" />
+
+        <br />
+
+        <label class="form_col" for="date">Date :</label>
+
+        <input type="varshar" name="date" required placeholder="date" />
+
+        <br />
+
+        <label class="form_col" for="telephone">Mobile :</label>
+
+        <input type="tel" name="telephone" required placeholder="telephone" />
+
+        <br />
+
+        <label class="form_col" for="email">Email :</label>
+
+        <input type="email" name="email" required placeholder="email" />
+
+
+
+          <!--Boutons-->
+
+        <button type="submit" value="ok" class="Bouton Valider" />
+        <input type="submit" value="Envoyer" />
+        <p>Valider</p>
+
+        <br />
+        <br />
+
+        <button type="reset" class="Bouton Supprimer" />
+        <p>Supprimer</p>
+
+        <br />
+        <br />
+
+        <input type="reset" value="Réinitialiser le formulaire" />
+
+
+    </form>
+
+
+
+    <footer id="conditions">
+
+        <h3>CGU</h3>
+
+    </footer>
+
+
+    <scrip <!--Code JavaScript--></scrip>
+
+    <script src="formulaire.js"></script>
+
+
+
+    </scrip>
+
+</body>
+
+</html>

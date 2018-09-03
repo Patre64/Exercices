@@ -1,0 +1,46 @@
+body
+{
+Background-color: rgb(115, 247, 59);
+color: black;
+margin: 10px;
+font-family: Verdana, Geneva, Arial, sans-serif;
+font-size: large;
+line-height: 150%
+}
+
+#Bandeau
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#Menusite
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#monFormu
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+input:focus
+{
+border: yellow;
+box-shadow: black;    
+}
+
+#conditions
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+    
