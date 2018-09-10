@@ -1,0 +1,1 @@
+<div id="footer"> (…) ici le contenu du footer (…) </div> <!-- fin de footer -->
